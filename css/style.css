@@ -13,9 +13,7 @@
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    width: 85%;
-    /* width: 1200px; */
-
+    width: 80%;
 }
 
 #pokedex{
@@ -26,7 +24,7 @@
     top: 0;
     margin: 20px;
     border-radius: 10px;
-    /* height: 800px; */
+    height: 80%;
 }
 #iconarea{
     display: flex;
@@ -34,7 +32,7 @@
 }
 #logo{
     width: 50%;
-    margin-left: 20%;
+    margin-left: 15%;
 }
 h1{
     font-size: 20pt;
@@ -44,7 +42,13 @@ h1{
 h2{
     margin: 0 0 20px 20px;
     font-size: 16pt;
+    width: 300px;
 }
 p{
     margin-left: 20px;
+}
+h4{
+    font-size: 16pt;
+    text-align: center;
+    width: 300px;
 }

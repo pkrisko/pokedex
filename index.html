@@ -10,13 +10,16 @@
     <body>
         <div id="wrapper">
             <img src="./img/logo.png" alt="logo" id="logo">
-            <div id="imagearea">
-                
-            </div>
+            <!-- This area is dynamically filled with ~150 Pokemon Images
+            See ./js/script.js for this implementation. -->
+            <div id="imagearea"></div>
+            <!-- This area of the screen utilizes PokeApi v2 and as an image
+            for a given pokemon is clicked, it makes a request for more
+            information about it, which it then dynamically displays on this
+            portion of the screen, filling and removing html from these divs -->
             <div id="pokedex">
-                <h1>Pokemon Name</h1>
-                <div id="iconarea">
-                </div>
+                <div id="namearea"></div>
+                <div id="iconarea"></div>
                 <div id="typesarea">
                     <h2>Types</h2>
                 </div>
